@@ -2,7 +2,7 @@
 FindSpikeTH 
 MATLAB Function
 
-test
+
 
 The FindSpikeTH MATLAB function compares the number of spikes that occur during different stimulation intensities and at baseline. The function then returns the P-value of getting this number of spikes by chance (the null hypothesis assumes that the stimulation does not affect the spiking rate).
 
