@@ -55,13 +55,14 @@ P : CDF value of getting that number of spike using a poisson distribution with 
 1-P = the probability of getting this amount spike by chance.
 P is a vector or a matrix, each row represents a channel and each column represents a stimulus intensity.
 The first column is for the baseline so the P (:,1)=~0.5
-r :  spiking rate per sample r.*20000= average spiking rate of spike/sec
+r : spiking rate per sample r.*20000= average spiking rate of spike/sec
 r is a vector or a matrix, each row represents a channel and each column represents a stimulus intensity.
 The first column is for the baseline
 stimDur :  the total samples for each stimuli and baseline 
 So for all stimulation intensities (assuming theyhave the same time) stimDur(2)/stimDur(3)~=1
 stimDur is a vector or a matrix, each row represents a channel and each column represents a stimulus intensity.
 The first column is for the baseline
+
     
     Calls
 
