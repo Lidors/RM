@@ -1,3 +1,16 @@
+% Input: data,rmsT
+% 
+% Data: data as a double variable, (output for LoadData)
+% rmsT : an rms threshold : scalar with a sign (e.g -4)
+% 
+% Output:  spkI 
+% 
+% spkI:  indexes vector of the local minimums crossing rmsT
+% 
+% The function finds local minimums (using islocalmin or myloclmin)
+% That cross the rmsT.
+% The function removing one of two local min if they happen in an interval
+% that is less the 20 samples
 
 
 function spkI=Findspike(data,rmsT)
